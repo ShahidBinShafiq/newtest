@@ -18,6 +18,7 @@ export default function Home() {
                     <div id={product} key={product.id} className='col-md-3' >
                       <img src={product.image} alt="" />
                       <h1>{product.title}</h1>
+                      <p>{product.description}</p>
 
                     </div>
                   )
