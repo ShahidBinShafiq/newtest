@@ -19,6 +19,7 @@ export default function Home() {
                       <img src={product.image} alt="" />
                       <h1>{product.title}</h1>
                       <p>{product.description}</p>
+                      <span>{product.category}</span>
 
                     </div>
                   )
