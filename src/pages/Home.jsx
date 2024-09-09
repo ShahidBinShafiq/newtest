@@ -19,9 +19,9 @@ export default function Home() {
                       <img src={product.image} alt="" />
                       <h1>{product.title}</h1>
                       <p>{product.description}</p>
-                      uy
                       <span>{product.category}</span>
-
+                      <p>{product.price}</p>
+                      <button className='btn btn-primary'>Add to cart</button>
                     </div>
                   )
                  })
